@@ -14,7 +14,7 @@ if (jump){
 }
 
 //Collisions
-if (place_meeting(x+hsp, y, oTerrain)){
+if (dest_collision(x+hsp, y)){
     //Slope
     var slope = false;
     var dir = point_direction(0, 0, hsp, vsp);
@@ -26,7 +26,7 @@ if (place_meeting(x+hsp, y, oTerrain)){
         Hsp = lengthdir_x(dist, Dir);
         Vsp = lengthdir_y(dist, Dir);
         
-        if (!place_meeting(x+Hsp, y+Vsp, oTerrain)){
+        if (!dest_collision(x+Hsp, y+Vsp)){
             slope = true;
             hsp = Hsp;
             vsp = Vsp;
@@ -37,11 +37,11 @@ if (place_meeting(x+hsp, y, oTerrain)){
     if (!slope) hsp = 0;
 }
 
-if (place_meeting(x, y+vsp, oTerrain)){
+if (dest_collision(x, y+vsp)){
     vsp = 0;
 }
 
-if (place_meeting(x+hsp, y+vsp, oTerrain)){
+if (dest_collision(x+hsp, y+vsp)){
     hsp = 0;
     vsp = 0;
 }

@@ -134,4 +134,4 @@ sfTB.text = global.saveFile;
 //save/load buttons
 var svB = createUI(80, 8, oUISave);
 var ldB = createUI(120, 8, oUILoad);
-
+var exB = createUI(160, 8, oUIExport);

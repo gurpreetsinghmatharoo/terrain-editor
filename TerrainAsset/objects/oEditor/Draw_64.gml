@@ -19,8 +19,21 @@ while(ds_priority_size(prior)>0){
     var inst = ds_priority_delete_max(prior);
 
     with(inst){
-        draw_sprite_ext(sprite_index, image_index, x-viewX, y-viewY,
-            image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+		//TerrainLayer
+		if (object_index==oTerrainLayer){
+			//Surface restore
+			if (!surface_exists(surf)){
+				surf = oEditor.layersDS[| num];
+			}
+			
+			//Draw
+			draw_surface(surf, -viewX, -viewY);
+		}
+		//Normal objects
+		else{
+	        draw_sprite_ext(sprite_index, image_index, x-viewX, y-viewY,
+	            image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+		}
     }
 }
 
@@ -126,6 +139,17 @@ while(ds_priority_size(prior)>0){
             draw_set_color(c_black);
             draw_text(x+panelW, y+panelH-8, string_hash_to_newline(layerID));
             draw_set_color(c_white);
+        }
+		
+		//save/load buttons
+		if (object_index==oUISave || object_index==oUILoad || object_index==oUIExport){
+			draw_set_font(ftUISmall);
+			
+            draw_set_color(c_black);
+            draw_text(x+panelW, y+panelH, text);
+            draw_set_color(c_white);
+			
+			draw_set_font(ftUI);
         }
     }
 }

@@ -1,10 +1,12 @@
 /// @description save on click
 /*
-Stuff to save:
+Stuff to export:
 
 surfaces in layersDS
 size of layersDS
 their properties in propsDS
+
+Puts it all into one big buffer and exports it
 */
 if (UIClick()){
     //surfaces to buffer files

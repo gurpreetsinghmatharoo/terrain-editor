@@ -34,10 +34,6 @@ if (UIClick() && directory_exists(working_directory + global.saveFile)){
         setProp(i, pr.tex, ini_read_real(section, "tex", 0));
     }
     
-    //test load string
-    var str = ini_read_string("surfs", global.saveFile, "");
-    string_to_surface(str, oEditor.layersDS[|0]);
-    
     ini_close();
     
     //textpop
