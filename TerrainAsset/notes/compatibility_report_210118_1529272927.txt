@@ -1,0 +1,208 @@
+Converting GML script: ${project_dir}\scripts\surface_load_sprite\surface_load_sprite.gml
+Converted description /// @description  surface_load_sprite(surface, sprite);/// @function  surface_load_sprite
+/// @param surface
+/// @param  sprite
+
+Converting GML script: ${project_dir}\scripts\surface_save_sprite\surface_save_sprite.gml
+Converted description /// @description  surface_save_sprite(surface, sprite);/// @function  surface_save_sprite
+/// @param surface
+/// @param  sprite
+
+Converting GML script: ${project_dir}\scripts\surface_create_clear\surface_create_clear.gml
+Converted description /// @description  surface_create_clear(width, height);/// @function  surface_create_clear
+/// @param width
+/// @param  height
+
+Converting GML script: ${project_dir}\scripts\surface_clear\surface_clear.gml
+Converted description /// @description  surface_clear(surface);/// @function  surface_clear
+/// @param surface
+
+Converting GML script: ${project_dir}\scripts\draw_line_circle\draw_line_circle.gml
+Converted description /// @description  draw_line_circle(x1, y1, x2, y2, radius, precision);/// @function  draw_line_circle
+/// @param x1
+/// @param  y1
+/// @param  x2
+/// @param  y2
+/// @param  radius
+/// @param  precision
+
+Converting GML script: ${project_dir}\scripts\mouse_input\mouse_input.gml
+Converted description /// @description mouse_input();/// @function mouse_input
+
+Converting GML script: ${project_dir}\scripts\UIOpen\UIOpen.gml
+Converted description /// @description  UIOpen();/// @function  UIOpen
+
+Converting GML script: ${project_dir}\scripts\createUI\createUI.gml
+Converted description /// @description  createUI(x, y, obj);/// @function  createUI
+/// @param x
+/// @param  y
+/// @param  obj
+
+Converting GML script: ${project_dir}\scripts\UIClick\UIClick.gml
+Converted description /// @description  UIClick
+
+Converting GML script: ${project_dir}\scripts\UISetPos\UISetPos.gml
+Converted description /// @description  UISetPos(id, x, y);/// @function  UISetPos
+/// @param id
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\textpop\textpop.gml
+Converted description /// @description  textpop(string);/// @function  textpop
+/// @param string
+
+Converting GML script: ${project_dir}\scripts\arrayC\arrayC.gml
+Converted description /// @description  arrayC(num, color, tex);/// @function  arrayC
+/// @param num
+/// @param  color
+/// @param  tex
+
+Converting GML script: ${project_dir}\scripts\getProp\getProp.gml
+Converted description /// @description  getProp(layerID, pr.?);/// @function  getProp
+/// @param layerID
+/// @param  pr.?
+
+Converting GML script: ${project_dir}\scripts\setProp\setProp.gml
+Converted description /// @description  setProp(layerID, pr.?, value);/// @function  setProp
+/// @param layerID
+/// @param  pr.?
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\getLayerAtNum\getLayerAtNum.gml
+Converted description /// @description  getLayerAtNum(num);/// @function  getLayerAtNum
+/// @param num
+
+Converting GML script: ${project_dir}\scripts\position_meeting_top\position_meeting_top.gml
+Converted builtin - line 11: instance_id[i] -> instance_id_get( i )
+Converted description /// @description  position_meeting_top(x, y, id);/// @function  position_meeting_top
+/// @param x
+/// @param  y
+/// @param  id
+
+Converting GML script: ${project_dir}\scripts\Buffer_set_surface\Buffer_set_surface.gml
+Converted description /// @description  Buffer_set_surface(buffer, surface);/// @function  Buffer_set_surface
+/// @param buffer
+/// @param  surface
+
+Converting GML script: ${project_dir}\scripts\d3\d3.gml
+Converted description /// @description  d3(number);/// @function  d3
+/// @param number
+
+Converting GML script: ${project_dir}\scripts\surface_to_string\surface_to_string.gml
+Converted description /// @description  surface_to_string(surface);/// @function  surface_to_string
+/// @param surface
+
+Converting GML script: ${project_dir}\scripts\string_to_surface\string_to_surface.gml
+Converted description /// @description  string_to_surface(string, surface);/// @function  string_to_surface
+/// @param string
+/// @param  surface
+
+Converting GML script: ${project_dir}\scripts\addLayer\addLayer.gml
+Converted description /// @description  addLayer()/// @function  addLayer
+
+Converting GML script: ${project_dir}\scripts\overlayTexture\overlayTexture.gml
+Converted description /// @description  overlayTexture(layer);/// @function  overlayTexture
+/// @param layer
+
+Converting GML script: ${project_dir}\scripts\clearLayers\clearLayers.gml
+Converted description /// @description  clearLayers();/// @function  clearLayers
+
+Converting GML script: ${project_dir}\scripts\terrain_load\terrain_load.gml
+Converted description /// @description  terrain_load(name, x, y);/// @function  terrain_load
+/// @param name
+/// @param  x
+/// @param  y
+
+Font ftUI has been converted to font family Microsoft JhengHei (Regular) - Font has been regenerated, small inconsistencies may occur
+Font ftTextbox has been converted to font family Microsoft JhengHei (Regular) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\oEditor\Create_0.gml
+Converted description /// @description constants
+
+Converting GML script: ${project_dir}\objects\oEditor\Step_2.gml
+Converted description /// @description Set editing state
+
+Converting GML script: ${project_dir}\objects\oEditor\Step_1.gml
+Converted description /// @description Maintain layer buttons
+
+Converting GML script: ${project_dir}\objects\oEditor\Step_0.gml
+Converted description /// @description Step functions
+
+Converting GML script: ${project_dir}\objects\oEditor\Draw_75.gml
+Converted description /// @description apply previous mouse coords
+
+Converting GML script: ${project_dir}\objects\oEditor\Draw_72.gml
+Converted description /// @description surface backup
+
+Converting GML script: ${project_dir}\objects\oEditor\Draw_64.gml
+Converted builtin - line 12: instance_id[i] -> instance_id_get( i )
+Converted builtin - line 83: instance_id[i] -> instance_id_get( i )
+Converted description /// @description MAIN VIEW SURFACE
+
+Converting GML script: ${project_dir}\objects\oEditor\Draw_0.gml
+Converted description /// @description Draw to selected terrain surface (layer)/// @function Draw to selected terrain surface 
+/// @param layer
+
+Converting GML script: ${project_dir}\objects\oUIAddLayer\Step_0.gml
+Converted description /// @description Add layer
+
+Converting GML script: ${project_dir}\objects\oUIAddLayer\Other_63.gml
+Converted description /// @description **UNUSED**
+
+Converting GML script: ${project_dir}\objects\oUILayer\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\oUILayer\Destroy_0.gml
+Converted description /// @description Destroy children instances
+
+Converting GML script: ${project_dir}\objects\oUILayer\Step_2.gml
+Converted description /// @description Reposition child buttons
+
+Converting GML script: ${project_dir}\objects\oUILayer\Step_0.gml
+Converted description /// @description Color for layer
+
+Converting GML script: ${project_dir}\objects\oUISelectLayer\Create_0.gml
+Converted description /// @description image speed
+
+Converting GML script: ${project_dir}\objects\oUISelectLayer\Step_0.gml
+Converted description /// @description Select layer
+
+Converting GML script: ${project_dir}\objects\oUILayerMove\Step_0.gml
+Converted description /// @description Click move layer
+
+Converting GML script: ${project_dir}\objects\oUITexSelect\Step_2.gml
+Converted description /// @description Open tex window on click
+
+Converting GML script: ${project_dir}\objects\oUITexWindow\Create_0.gml
+Converted description /// @description init
+
+Converting GML script: ${project_dir}\objects\oUITexWindow\Step_1.gml
+Converted description /// @description Create tex buttons
+
+Converting GML script: ${project_dir}\objects\oUITexWindow\Step_0.gml
+Converted description /// @description Destroy if being clicked outside of
+
+Converting GML script: ${project_dir}\objects\oUITexButton\Step_0.gml
+Converted description /// @description If clicked, set texture for layer
+
+Converting GML script: ${project_dir}\objects\oUITextbox\Create_0.gml
+Converted description /// @description init
+
+Converting GML script: ${project_dir}\objects\oUITextbox\Step_0.gml
+Converted description /// @description type
+
+Converting GML script: ${project_dir}\objects\oUISave\Step_0.gml
+Converted description /// @description save on click
+
+Converting GML script: ${project_dir}\objects\oUILoad\Step_0.gml
+Converted description /// @description load on click
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Game speed set to 60
+Added compatibility script 'background/draw_background_tiled.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'draw/draw_set_blend_mode_ext.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
